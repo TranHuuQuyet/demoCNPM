@@ -1,0 +1,66 @@
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #3c4766; /* màu đen xanh */
+/* color: #fff;
+  height: 100cqb; /* toàn màn hình */
+/* display: flex; */
+/* flex-direction: column; */
+/* } */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1329; /* màu nền đồng nhất toàn trang */
+  /* color: #fff; */
+  min-height: 100%; /* body sẽ luôn ít nhất bằng chiều cao viewport */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: linear-gradient(to right, #0f172a, #0e7490);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #f8fafc;
+}
+nav a:hover {
+  color: #38bdf8;
+}
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* căn giữa ngang */
+  align-items: center; /* căn giữa dọc */
+  min-height: 100vh; /* chiếm đủ 100% chiều cao màn hình */
+  margin: 0; /* bỏ margin-top */
+}
+
+.center-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: #38bdf8; /* màu xanh nổi bật */
+}
+#giohang {
+  margin-left: 260px;
+}
